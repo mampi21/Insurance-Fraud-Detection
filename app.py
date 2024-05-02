@@ -15,7 +15,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://cdn-images-1.medium.com/max/1024/0*TAKowdypUmAvrRCC")  # URL of your background image
+        background: url("https://www.claimsjournal.com/app/uploads/2022/01/bigstock-fraud.detection-scaled.jpg")  # URL of your background image
     }
     </style>
     """,
