@@ -10,7 +10,16 @@ def predict(data):
     clf = pickle.load(open("insu_model.pkl","rb"))
     return clf.predict(data)
 
-
+ st.markdown(
+        """
+        <style>
+        .reportview-container {
+            background: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg")  # URL of your background image
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 st.title("Insurance Fraud Detection Project using Machine Learning")
 st.markdown("This Model detects fraud")
 
