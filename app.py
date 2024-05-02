@@ -15,7 +15,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg")  # URL of your background image
+        background: url("https://cdn-images-1.medium.com/max/1024/0*TAKowdypUmAvrRCC")  # URL of your background image
     }
     </style>
     """,
