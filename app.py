@@ -30,7 +30,7 @@ col1,col2,col3 = st.columns(3)
 
 with col1:
     st.text("age")
-    ag=st.slider("Age", 18.0,80.0,2)
+    ag=st.slider("Age", 18,80,2)
     st.text("witnesses")
     wt = st.slider("Number of Witnesses", 1, 10, 2)
     st.text("Claim amount")
