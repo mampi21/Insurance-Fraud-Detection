@@ -34,7 +34,7 @@ with col1:
     st.text("witnesses")
     wt = st.slider("Number of Witnesses", 1, 10, 2)
     st.text("Claim amount")
-    ca = st.slider("Claim Amout", 5000.0, 1000000.0, 0.5)
+    ca = st.slider("Claim Amout", 500.0, 100000.0, 0.5)
     st.text("Incident Serverity")
     si = st.slider("Incident Serverity",1,4,2)
     st.text("Number of Vehical Involved")
